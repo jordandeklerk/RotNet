@@ -16,5 +16,5 @@ In this project, we will use PyTorch to train a ResNet-18 model on a self-superv
 
 The self-supervised training task is image rotation prediction, as proposed by [Gidaris](https://arxiv.org/pdf/1803.07728.pdf). For this task, all training images are randomly rotated by 0, 90, 180, or 270 degrees. The network is then trained to classify the rotation of each input image using cross-entropy loss by treating each of the 4 possible rotations as a class. This task can be treated as pre-training, and the pre-trained weights can then be fine-tuned on the supervised CIFAR10 classification task.
 
-Results can be seen in the provided notebook.
+After training with a pre-trained ResNet model, we will build a vision transformer model from scratch and compare the accuracy to the ResNet model. Results can be seen in the provided notebook.
 
