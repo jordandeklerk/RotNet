@@ -2,12 +2,6 @@
 
 <hr>
 
-## Contents
-
-1. [Highlights](#Highlights)
-
-<hr>
-
 ## Highlights
 
 <img src="./images/rot.png" width="750"></img>
